@@ -1,52 +1,74 @@
-<div align="center">
-
 # 🌾 CropCadet - Your Smart Farming Assistant
-</div>
-
-<div align="center">
-     <img src="CropCadet.png" alt="CropCadet Logo" width="250" height="250">
 
 **Empowering farmers with smart technology for better crop management**
 
-[![🎥 Watch Demo](https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=NDG1ELOAXvY)
+## 📁 Project Structure
 
-[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Expo Router](https://img.shields.io/badge/Expo_Router-000020?style=for-the-badge&logo=expo&logoColor=white)](https://docs.expo.dev/router/introduction/)
+This project is organized into two main directories:
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+- `frontend/` - React Native/Expo web application
+- `backend/` - Node.js/Express API server
 
-</div>
+## 🚀 Deployment
 
-## 📱 About CropCadet
+### Frontend (Vercel)
+The frontend is built with Expo for web and can be deployed to Vercel.
 
-CropCadet is a comprehensive mobile application designed to assist farmers with modern agricultural practices. Built with React Native and Expo, it provides real-time weather updates, market prices, government schemes information, and smart crop scanning capabilities.
+1. Connect your GitHub repository to Vercel
+2. Set build command: `npm run build:web`
+3. Set output directory: `dist`
 
-### 🎬 Demo Video
+### Backend (Railway)
+The backend is a Node.js application ready for Railway deployment.
 
-[![CropCadet Demo](https://img.shields.io/badge/▶️_Watch_Full_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=black)](https://www.youtube.com/watch?v=NDG1ELOAXvY)
-
-> 🎥 **See CropCadet in action!** Watch our comprehensive demo showcasing all features, from weather dashboard to crop scanning capabilities.
-
-### ✨ Key Features
-
-- 🌤️ **Real-time Weather Dashboard** - Location-based weather information with humidity and rainfall data
-- 📸 **Smart Crop Scanner** - AI-powered crop disease detection and health analysis
-- 💰 **Market Price Tracker** - Live commodity prices with trend indicators
-- 📋 **Government Schemes** - Access to latest agricultural schemes and subsidies
-- 🎤 **Voice Assistant** - Multilingual voice commands for hands-free operation
-- 🔔 **Smart Alerts** - Weather warnings and market updates
-- 🌐 **Bilingual Support** - English and Hindi language support
+1. Connect your GitHub repository to Railway
+2. Railway will automatically detect and deploy the Node.js app
+3. Set environment variables in Railway dashboard
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+- React Native
+- Expo
+- TypeScript
+- i18next (for internationalization)
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-1B1F23?style=flat-square&logo=expo&logoColor=white)
+### Backend
+- Node.js
+- Express
+- MongoDB
+- JWT Authentication
+
+## 🌐 Languages Supported
+- English
+- Hindi
+- Tamil
+
+## 🔐 Testing Credentials
+For testing purposes, use the following credentials:
+- Email: test@example.com
+- Password: test123
+
+## 📱 Features
+- User registration and authentication
+- Multilingual support
+- Smart farming tools
+
+## 🏃‍♂️ Running Locally
+
+### Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ### Navigation & Routing
 
